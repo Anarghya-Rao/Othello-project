@@ -1,0 +1,106 @@
+   ~~~~~~~~~~~~~~~~~OTHELLO INSTRUCTIONS:WELCOME!~~~~~~~~~~~~~~~~~
+
+Othello is a 2-player strategy board game. It is similar to the game "Reversi",
+with only slight changes in the rules.
+The game board is made up of 8 rows and 8 columns (which are numbered),
+i.e., 64 squares.
+Each square is denoted by the row and column it resides in (Ex. Square '2 4' is
+in 2nd row, 4th column). There are 64 double-sided discs where one face is 
+black (also denoted by 'X') and the other is white (denoted by 'O'). 
+
+Othello is a game which takes a minute to learn, but a lifetime to master.
+
+The game can be played in 2 modes:
+1. Player VS Player: Play with your friend!
+2. Player VS Computer: Challenge the computer!       Next:"Object of the game"
+
+* OBJECT OF THE GAME:
+The object of the game is to have the highest number of your colour discs on 
+the board at the end of the game.
+
+* STARTING THE GAME:
+Each player chooses one colour to use throughout the game (either black or 
+white, i.e. 'X' or 'O').  
+The game always begins with this setup.
+
+                        row numbers
+                           ^
+                           |
+    1  2  3  4  5  6  7  8    -> column numbers
+  1 -  -  -  -  -  -  -  - 1               
+  2 -  -  -  -  -  -  -  - 2   -> Black (X)    -> '-' denote blank spaces
+  3 -  -  -  -  -  -  -  - 3   -> White (O)
+  4 -  -  -  O  X  -  -  - 4  
+  5 -  -  -  X  O  -  -  - 5   -> Black placed on the left, 
+  6 -  -  -  -  -  -  -  - 6      white on the right.
+  7 -  -  -  -  -  -  -  - 7
+  8 -  -  -  -  -  -  -  - 8
+    1  2  3  4  5  6  7  8
+                           
+
+A move consists of "outflanking" your opponent's disc(s), then flipping the 
+outflanked disc(s) to your colour. 
+To outflank means to place a disc on the board such that your opponent's 
+row(s), column(s) or diagonal(s) is bordered at each end by a disc of your 
+colour.                                              Next:"How to play"
+
+* HOW TO PLAY:
+
+1. Black (X) always moves first. Then white (O) and so on alternatively.
+2. On your turn, the current status of the game board will be displayed using
+   which you can decide on your move. Once move is played, updated board 
+   will also be displayed.
+3. Enter your move in the format "row column", where row = row in which square 
+   lies, column = similarly.
+2. If on your turn you are unable to flip even one of the opponent's discs, you
+   cannot place any moves and you miss your turn. The play then goes to your 
+   oppenent.
+3. You cannot forfeit your turn if you have moves available and must play your 
+   turn.
+4. A disc may outflank any number of discs in one move in any number of 
+   directions (i.e. as row, column or diagonal). Ex:
+
+  1  2  3  4  5  6  7  8         1  2  3  4  5  6  7  8
+1 -  -  -  -  -  -  -  - 1     1 -  -  -  -  -  -  -  - 1   - With one move  
+2 -  -  -  -  -  -  -  - 2     2 -  -  -  -  -  -  -  - 2     discs of row,      
+3 -  -  O  -  -  -  O  - 3     3 -  -  O  -  -  -  O  - 3     column and    
+4 -  -  X  -  -  X  -  - 4     4 -  -  O  -  -  O  -  - 4     diagonal were 
+5 -  -  X  -  X  -  -  - 5     5 -  -  O  -  O  -  -  - 5     flipped.
+6 -  -  X  X  -  -  -  - 6     6 -  -  O  O  -  -  -  - 6
+7 -  -  -  X  O  -  -  - 7     7 -  -  O  O  O  -  -  - 7
+8 -  -  -  -  -  -  -  - 8     8 -  -  -  -  -  -  -  - 8
+  1  2  3  4  5  6  7  8         1  2  3  4  5  6  7  8 
+  
+5. You cannot skip your own colour disc to outflank the opponent's disc.
+   Ex:
+ 
+      1  2  3  4  5  6  7  8         
+    1 -  -  -  -  -  -  -  - 1     - 'X' disc placed at 
+    2 -  -  -  -  -  -  -  - 2        (7,1) turns only 1
+    3 -  -  -  -  -  -  -  - 3        white disc (7,2)
+    4 -  -  -  -  -  -  -  - 4        and does not flip 
+    5 -  -  -  -  -  -  -  - 5        the discs at (7,4)
+    6 -  -  -  -  -  -  -  - 6        and (7,5).
+    7 -  O  X  O  O  X  -  - 7     
+    8 -  -  -  -  -  -  -  - 8     
+      1  2  3  4  5  6  7  8        
+  
+6. All discs outflanked in any one move will be flipped, even if it is to the 
+   player's advantage not to flip them all. 
+7. A disc once placed on the board can never be moved again during the 
+   remainder of the game.
+
+* ENDING OF THE GAME:
+When none of the players have anymore moves, the game ends. The number of discs
+for each player is counted and the player with the highest number of discs wins
+the game.
+
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  
+
+
+ 
+
+       
+   
