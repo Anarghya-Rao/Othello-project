@@ -13,9 +13,10 @@ the game.
 
 For more details, please check out the mini project report file.
 
-In order to run the project:
+In order to run this project:
 1) Download the files to a suitable location.
-2) Run the file "
+2) Run the file "SEM3_Othello.py" on python shell.
+This will display a main menu through which the game can be accessed.
 
 
 About Othello, the game:
