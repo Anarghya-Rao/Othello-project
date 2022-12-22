@@ -11,11 +11,12 @@ against a competent computer opponent.
 the game.
 7) The game helps build up a person’s strategic thinking skills.
 
-For more details, please check out the mini project report file.
+For more details, please read the mini project report file.
 
 In order to run this project:
 1) Download the files to a suitable location.
 2) Run the file "SEM3_Othello.py" on python shell.
+
 This will display a main menu through which the game can be accessed.
 
 
